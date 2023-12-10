@@ -6,11 +6,10 @@ import HW09.model.AppStandardModel;
 import HW09.model.AppPremiumModel;
 import HW09.utilites.AppRandomizer;
 import HW09.utilites.AppRounder;
-import HW09.variables.Constants;
+import HW09.utilites.Constants;
 import HW09.view.AppView;
 
 public class AppController {
-    private final String CURRENCY = "standard unit";
     private final AppView view = new AppView();
 
     public void getWinAmount() {

@@ -1,4 +1,4 @@
-package HW09.variables;
+package HW09.utilites;
 
 public class Constants {
 
