@@ -26,7 +26,7 @@ public class AppController {
             String winnerPay = AppRounder.roundValue(model.calcWin(gamerBet));
             output = "\n*********" +
                     "\nDropped number: " + randomNumber +
-                    "\nThe winnings amount to: " + winnerPay + " " + CURRENCY;
+                    "\nThe winnings amount to: " + winnerPay + " " + CURRENCY + ".";
             view.getOutput(output);
 
         } else if (randomNumber <= MAX_BORDER) {
@@ -34,7 +34,7 @@ public class AppController {
             String winnerPay = AppRounder.roundValue(model.calcWin(gamerBet));
             output = "\n*********" +
                     "\nDropped number: " + randomNumber +
-                    "\nThe winnings amount to: " + winnerPay + " " + CURRENCY;
+                    "\nThe winnings amount to: " + winnerPay + " " + CURRENCY + ".";
             view.getOutput(output);
 
         } else {
@@ -42,7 +42,7 @@ public class AppController {
             String winnerPay = AppRounder.roundValue(model.calcWin(gamerBet));
             output = "\n*********" +
                     "\nDropped number: " + randomNumber +
-                    "\nThe winnings amount to: " + winnerPay + " " + CURRENCY;
+                    "\nThe winnings amount to: " + winnerPay + " " + CURRENCY + ".";
             view.getOutput(output);
         }
     }
@@ -50,6 +50,4 @@ public class AppController {
     private Gamer getAmount(double data){
         return new Gamer(data);
     }
-
-
 }
