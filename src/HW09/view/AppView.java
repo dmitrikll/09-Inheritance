@@ -8,7 +8,7 @@ public class AppView {
     private final Scanner betScanner = new Scanner(System.in);
 
     public double getData() {
-        System.out.print("Please, enter you bet C.U.: ");
+        System.out.print("Please, enter bet: ");
         betScanner.useLocale(Locale.ENGLISH);
         return betScanner.nextDouble();
     }
