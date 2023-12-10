@@ -28,7 +28,7 @@ public class AppController {
                     "\nThe winnings amount to: " + winnerPay + " " + Constants.CURRENCY + ".";
             view.getOutput(output);
 
-        } else if (randomNumber <= Constants.Num_MAX) {
+        } else if (randomNumber <= Constants.NUM_MAX) {
             AppStandardModel model = new AppStandardModel();
             String winnerPay = AppRounder.roundValue(model.calcWin(gamerBet));
             output = "\n*********" +

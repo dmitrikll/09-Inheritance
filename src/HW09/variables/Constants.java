@@ -10,6 +10,6 @@ public class Constants {
     public static final int TAX_MIN = 5;
     public static final int TAX_MAX = 10;
     public static final int NUM_MIN = 3;
-    public static final int Num_MAX = 7;
+    public static final int NUM_MAX = 7;
     public static String CURRENCY = "standard unit";
 }
