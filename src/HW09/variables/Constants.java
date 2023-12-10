@@ -1,4 +1,4 @@
-package HW09.utilites;
+package HW09.variables;
 
 public class Constants {
 
@@ -12,6 +12,4 @@ public class Constants {
     public static final int NUM_MIN = 3;
     public static final int Num_MAX = 7;
     public static String CURRENCY = "standard unit";
-
 }
-
